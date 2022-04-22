@@ -1,0 +1,23 @@
+These configuration lines may exceed 100 characters.
+Each line starting with a coordinate (row,colum) gives the field/attribute values for that location in the map.
+The first set of integer coordinates at the beginning of a line in this file (e.g., 8,8/size/...) is the overall
+size (number of rows and number of columns) of the map to be used to create the internal map array.
+The line with the 'start' name (e.g., 0,4/start/...) is the starting location of the player.
+
+Coordinates/Name/Enter Text/Enter Result/Nearby Text/
+8,8/size/This is the size of the map///
+0,0/energy/You found an energy core for your phaser!/phaser/Your energy detector beeps.../
+0,2/beam/ZAP! Scotty beamed you to a new location!/randomMove/In the distance, you hear: "Aye, captain."/
+0,4/start////
+0,7/klingon/Watch out! A Klingon surprise attack!/lose/In the distance, you hear: "vaQ! may'morgh!"/
+1,5/energy/You found an energy core for your phaser!/phaser/Your energy detector beeps.../
+1,6/klingon/Watch out! A Klingon surprise attack!/lose/In the distance, you hear: "vaQ! may'morgh!"/
+2,2/spock/"Live long and prosper." Congratulations! You found Spock!/win/In the distance, you hear: "Vulcans never bluff..."/
+2,7/energy/You found an energy core for your phaser!/phaser/Your energy detector beeps.../
+3,7/beam/ZAP! Scotty beamed you to a new location!/randomMove/In the distance, you hear: "Aye, captain."/
+5,0/klingon/Watch out! A Klingon surprise attack!/lose/In the distance, you hear: "vaQ! may'morgh!"/
+5,5/khan/AARGH! An ambush! You submitted to the wrath of Khan!/lose/In the distance, you hear: "Revenge is a dish best served cold. It is very cold in space..."/
+6,4/beam/ZAP! Scotty beamed you to a new location!/randomMove/In the distance, you hear: "Aye, captain."/
+7,2/klingon/Watch out! A Klingon surprise attack!/lose/In the distance, you hear: "vaQ! may'morgh!"/
+7,6/energy/You found an energy core for your phaser!/phaser/Your energy detector beeps.../
+7,7/beam/ZAP! Scotty beamed you to a new location!/randomMove/In the distance, you hear: "Aye, captain."/
