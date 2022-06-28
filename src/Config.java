@@ -1,25 +1,3 @@
-///////////////////////// TOP OF FILE COMMENT BLOCK ////////////////////////////
-//
-// Title:           Config.java
-// Course:          CS 200, Fall 2020
-//
-// Author:          Matthew Noojin
-// Email:           noojin@wisc.edu
-// Lecturer's Name: Marc Renault
-//
-///////////////////////////////// CITATIONS ////////////////////////////////////
-//
-// None.
-//
-/////////////////////////////// 80 COLUMNS WIDE ////////////////////////////////
-
-/**
- * This file contains constants for the text Adventure project. Also at the
- * bottom of this file are READ ME Notes for the Grader.
- *
- * @author Jim Williams
- * @author Matthew Noojin
- */
 public class Config {
 
 	/**
@@ -102,8 +80,6 @@ a "phaser battle" is triggered and the player survives; ENERGY_CORES decreases b
 fulfillment of end game conditions. As enter() returns a boolean, there is no way to distinguish
 between 'good' and 'bad' game overs in the main loop. It was important for different sounds to 
 play based on the unique end game conditions.
-
-See Piazza posts @1810 and @1969 for conversation & permission from Jim Williams regarding these features.
 
 Link to gameplay: https://youtu.be/xalLvDF-gaI
 
