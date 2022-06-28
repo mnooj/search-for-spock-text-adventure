@@ -1,22 +1,3 @@
-///////////////////////// TOP OF FILE COMMENT BLOCK ////////////////////////////
-//
-// Title: Adventure.java
-// Course: CS 200, Fall 2020
-//
-// Author: Matthew Noojin
-// Email: noojin@wisc.edu
-// Lecturer's Name: Marc Renault
-//
-///////////////////////////////// CITATIONS ////////////////////////////////////
-//
-// Scanner useDelimiter() method derived from TutorialsPoint.com tutorial found
-// at https://www.tutorialspoint.com/java/util/scanner_usedelimiter_string.htm
-//
-// Thread.sleep() method derived from Oracle Java tutorial found at
-// https://docs.oracle.com/javase/tutorial/essential/concurrency/sleep.html
-//
-/////////////////////////////// 80 COLUMNS WIDE ////////////////////////////////
-
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
@@ -30,12 +11,6 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-/**
- * This class contains a text based adventure game based on the popular Star Trek franchise.
- * 
- * @author Jim Williams
- * @author Matthew Noojin
- */
 public class Adventure {
 
     /**
@@ -452,10 +427,6 @@ public class Adventure {
         boolean debug = false;
 
         // Developer & tester command-line options so not shown to a player.
-        // You may add to these options for your own use but make sure these all work
-        // the same
-        // as we will be using them when testing.
-        //
         // Usage: java Adventure [-s seed] [-c configuration_filename] [-m map_filename]
         // [-d]
         for (int i = 0; i < args.length; ++i) {
